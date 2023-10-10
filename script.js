@@ -76,8 +76,12 @@ kuzovNiz.lineTo(200,125);
 kuzovNiz.lineTo(75,125);
 kuzovNiz.lineTo(75,75);
 kuzovNiz.moveTo(10, 100);
-kuzovNiz.lineTo(10,125);
+kuzovNiz.lineTo(5,125);
 kuzovNiz.lineTo(75,125);
+kuzovNiz.moveTo(20,125);
+kuzovNiz.arc(20, 125, 10, 0, 2 * Math.PI)
+kuzovNiz.moveTo(170,125);
+kuzovNiz.arc(170, 125, 10, 0, 2 * Math.PI)
 kuzovNiz.stroke(); 
 
 
